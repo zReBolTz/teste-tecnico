@@ -68,6 +68,7 @@ function calcularPercentual(faturamento: FaturamentoPorEstado[]): void {
   });
 }
 calcularPercentual(faturamento2);
+console.log("=====================================");
 
 function inverterString(str: string): string {
   let inverted = "";
